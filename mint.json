@@ -1,0 +1,213 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Postdata Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [],
+  "topbarCtaButton": {
+    "name": "Github",
+    "url": "https://github.com/mamahuhu-io/postdata"
+  },
+  "tabs": [],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "lines-leaning",
+      "url": "documentation"
+    },
+    {
+      "name": "Guides",
+      "icon": "check-double",
+      "url": "guides"
+    },
+    {
+      "name": "Support",
+      "icon": "question",
+      "url": "support"
+    },
+    {
+      "name": "Blog",
+      "icon": "quote-left",
+      "url": "https://postdata.cn/blog"
+    },
+    {
+      "name": "Changelog",
+      "icon": "shapes",
+      "url": "https://github.com/mamahuhu-io/postdata/releases"
+    }
+  ],
+  "topAnchor": {
+    "icon": "house",
+    "name": "Home"
+  },
+  "primaryTab": {
+    "name": "Home"
+  },
+  "navigation": [
+    {
+      "group": "Getting started",
+      "pages": [
+        "documentation/getting-started/introduction",
+        "documentation/getting-started/quick-start",
+        "documentation/getting-started/clients",
+        "documentation/getting-started/setup",
+        "documentation/getting-started/troubleshooting",
+        {
+          "group": "RESTful API",
+          "pages": [
+            "documentation/getting-started/rest/creating-a-request",
+            "documentation/getting-started/rest/response-handling",
+            "documentation/getting-started/rest/request-parameters",
+            "documentation/getting-started/rest/request-headers",
+            "documentation/getting-started/rest/organizing-requests",
+            "documentation/getting-started/rest/environment-variables",
+            "documentation/getting-started/rest/auth-tokens",
+            "documentation/getting-started/rest/uploading-data",
+            "documentation/getting-started/rest/pre-request-scripts",
+            "documentation/getting-started/rest/tests"
+          ]
+        },
+        {
+          "group": "GraphQL API",
+          "pages": [
+            "documentation/getting-started/graphql/creating-a-query",
+            "documentation/getting-started/graphql/using-variables"
+          ]
+        },
+        {
+          "group": "Realtime API",
+          "pages": [
+            "documentation/getting-started/realtime/websocket",
+            "documentation/getting-started/realtime/socket-io",
+            "documentation/getting-started/realtime/sse",
+            "documentation/getting-started/realtime/mqtt"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Clients",
+      "pages": [
+        "documentation/clients/web",
+        "documentation/clients/desktop",
+        {
+          "group": "CLI",
+          "pages": [
+            "documentation/clients/cli/overview",
+            "documentation/clients/cli/troubleshooting"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Protocols",
+      "pages": [
+        "documentation/protocols/rest",
+        "documentation/protocols/graphql",
+        "documentation/protocols/realtime"
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "documentation/features/workspaces",
+        "documentation/features/collections",
+        "documentation/features/runner",
+        "documentation/features/variables",
+        "documentation/features/environments",
+        "documentation/features/pat",
+        "documentation/features/history",
+        "documentation/features/spotlight",
+        "documentation/features/shortcuts",
+        "documentation/features/scripts",
+        "documentation/features/importer",
+        "documentation/features/customization",
+        "documentation/features/inspections",
+        "documentation/features/cookies",
+        "documentation/features/client-certificate",
+        "documentation/features/snippets",
+        "documentation/features/context-menu",
+        "documentation/features/widgets",
+        "documentation/features/authorization",
+        "documentation/features/rest-api-testing",
+        "documentation/features/graphql-api-testing",
+        "documentation/features/realtime-api-testing"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "documentation/community",
+        "documentation/contributors",
+        "documentation/changelog",
+        "documentation/develop",
+        "documentation/i18n"
+      ]
+    },
+    {
+      "group": "Getting started",
+      "pages": ["guides/getting-started/introduction"]
+    },
+    {
+      "group": "Articles",
+      "pages": [
+        "guides/articles",
+        "guides/articles/restful-api-testing-with-postdata",
+        "guides/articles/improving-your-api-workflow",
+        "guides/articles/understanding-graphql"
+      ]
+    },
+    {
+      "group": "Getting started",
+      "pages": [
+        "support/getting-started/introduction",
+        "support/getting-started/faq",
+        "support/getting-started/contact"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": ["support/solutions/community", "support/solutions/experts"]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "support/license",
+        "support/code-of-conduct",
+        "support/security-policy",
+        "support/privacy",
+        "support/terms"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/mamahuhu-io/postdata",
+    "medium": "https://mamahuhu.io",
+    "website": "https://www.postdata.cn"
+  },
+  "feedback": {
+    "raiseIssue": true,
+    "suggestEdit": true,
+    "thumbsRating": true
+  },
+  "redirects": [
+    {
+      "source": "/source/path",
+      "destination": "/destination/path"
+    }
+  ],
+  "theme": "prism",
+  "layout":"topnav"
+}

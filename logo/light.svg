@@ -1,0 +1,17 @@
+<svg width="5000" height="1024" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <linearGradient y2="0" x2="0" y1="0" x1="0" id="r5">
+   <stop stop-color="#07C160"/>
+   <stop stop-color="#07C160" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect paint-order="stroke" stroke-opacity="100%" stroke-width="0" stroke="#FFFFFF" fill="url(#r5)" rx="220" y="0" x="0" height="1024" width="1024" id="r4"/>
+  <svg id="svg_2" y="122" x="122" height="780" width="780" p-id="259957" version="1.1" viewBox="0 0 1151 1024" class="icon" t="1730971629511" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+   <path id="svg_3" fill="#ffffff" p-id="259958" d="m0,583.62381c3.11111,1.05912 4.97119,1.75583 6.87572,2.32613c117.13532,35.12221 234.29243,70.17841 351.36836,105.49307c6.57945,1.98619 10.99009,1.29369 16.48795,-3.08465c159.28186,-126.7653 318.72807,-253.31709 478.15181,-379.89557c1.49175,-1.18553 3.01722,-2.3205 4.52583,-3.47795c0.22053,0.29077 0.43404,0.58154 0.65317,0.8723c-126.07421,139.6545 -252.1428,279.30759 -378.79291,419.5984c144.24774,47.34279 287.72012,94.43134 431.63215,141.66316c79.85233,-288.30165 159.61056,-576.23106 239.7972,-865.72808c-384.03231,194.31559 -766.80323,387.98924 -1150.69928,582.23319z"/>
+   <path id="svg_4" fill="#ffffff" p-id="259959" d="m463.7203,1024.00165c53.49803,-63.20984 106.18978,-125.47606 159.41811,-188.36146c-53.57528,-15.82495 -106.34851,-31.40829 -159.41811,-47.07872l0,235.44018z"/>
+  </svg>
+  <text stroke-width="0" font-weight="bold" transform="matrix(2.81368 0 0 3.19869 -2882.45 -585.84)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Oxanium'" font-size="250" id="svg_5" y="432.1647" x="1455.04883" fill="#000000">POSTDATA</text>
+ </g>
+</svg>
